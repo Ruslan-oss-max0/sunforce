@@ -29,7 +29,7 @@ function App(){
  <section className="hero hero-cinematic" data-background={heroVariant} aria-labelledby="hero-title">
   <div className="hero-copy">
    <p className="eyebrow">ПРОСТІР КРАСИ В КИЄВІ</p>
-   <h1 id="hero-title"><span className="hero-line">Краса.</span><span className="hero-line">У вашому <em>ритмі.</em></span></h1>
+   <h1 id="hero-title"><span className="hero-line">Краса</span>{' '}<span className="hero-line">у вашому <em>ритмі.</em></span></h1>
    <div className="hero-invitation"><p className="hero-description">Час для себе. Простір для краси.<br/>Дозвольте собі трохи більше турботи.</p><BookingLink/></div>
    <div className="hero-bottom"><span>КИЇВ, ПРЕДСЛАВИНСЬКА, 43/2</span><a href="#services">Відкрити простір <span className="scroll-line"/></a></div>
   </div>
