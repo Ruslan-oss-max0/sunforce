@@ -39,3 +39,9 @@ Images are downloaded at web-optimized resolutions. Service images are preloaded
 ## Checks
 
 `npm run build` produces the static site. With local Chrome installed and the dev server running, `node tests/responsive.mjs` checks 1920, 1440, 1280, 1024, 768, 430, 390, 375 and 320px widths, image loading, horizontal overflow, mobile navigation, services, gallery and browser errors. Screenshots are saved under ignored `qa/`.
+
+## Public demo hosting
+
+Public URL: https://ruslan-oss-max0.github.io/sunforce/
+
+GitHub Pages serves the compiled site from the `gh-pages` branch. Run `npm ci` and `npm run build:pages`, then publish the contents of `dist/` (with `.nojekyll`) to that branch. Do not point Pages at the source files on `main`; browsers cannot run the uncompiled React entrypoint. The Sites deployment remains separate.

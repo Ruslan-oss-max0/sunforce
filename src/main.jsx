@@ -8,7 +8,7 @@ const nav = [['Послуги','services'],['Про простір','about'],['�
 // Silk is the approved default; other backgrounds remain development-only previews.
 const heroPreview = import.meta.env.DEV ? new URLSearchParams(window.location.search).get('hero') : null;
 const heroVariant = heroPreview === 'original' ? undefined : heroPreview === 'sunlight' ? 'sunlight' : 'silk';
-const photo = (name) => `/images/${name}.jpg`;
+const photo = (name) => `${import.meta.env.BASE_URL}images/${name}.jpg`;
 function Reveal({children,className=''}) {const reduced=useReducedMotion(); return <motion.div className={className} initial={reduced ? false : {opacity:0,y:24}} whileInView={{opacity:1,y:0}} viewport={{once:true,amount:.12}} transition={{duration:.7,ease:[.22,1,.36,1]}}>{children}</motion.div>}
 function BookingLink({children='Записатися в Instagram',className=''}) {return <a className={`button ${className}`} href={instagram} target="_blank" rel="noopener noreferrer">{children}<Instagram size={17}/></a>}
 function Brand(){return <span className="brand">SUNFORCE<span>beauty</span></span>}
