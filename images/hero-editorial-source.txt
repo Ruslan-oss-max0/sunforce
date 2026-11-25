@@ -1,0 +1,5 @@
+Hero portrait: Oliver Dohrn, Pexels photo 31514199
+https://www.pexels.com/photo/portrait-of-woman-with-dark-background-31514199/
+License: https://www.pexels.com/license/
+Illustrative stock portrait; does not depict a Sunforce Beauty client or team member.
+Locally served, 1600px wide JPEG, quality 82. Color treatment and blending applied non-destructively in hero CSS.
